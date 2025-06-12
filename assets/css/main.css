@@ -1414,6 +1414,11 @@ section,
 .contact .php-email-form button[type=submit]:hover {
   background: color-mix(in srgb, var(--accent-color), transparent 25%);
 }
+.card:hover {
+  transform: scale(1.02);
+  transition: 0.3s;
+  cursor: pointer;
+}
 
 /*--------------------------------------------------------------
 # Starter Section Section
